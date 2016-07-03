@@ -1,1 +1,11 @@
-CitrusZenSaver
+CitrusZenSaver 0.1
+
+Это расширение для браузера Google Chrome,
+которое позволяет сохранять ссылку на веб страницу
+в свое облачное хранилище Citrus Zen.
+
+Пример работы с API CitrusZen
+
+http://citrus.ru.com - Официальный сайт
+https://twitter.com/citruszen - Twitter
+https://vk.com/citrusos - Группа ВКонтакте
