@@ -18,9 +18,10 @@ window.onload = function() {
   var tab = tabs[0];
   //console.log(tab.url); // Сообщение в консоль
   var xhr = new XMLHttpRequest();
-  // URL сохраняется в переменную с запросом
-  var body = "save=" + tab.url;
-  // При нажатии кнопки отправить запрос
+  // Будут переданы URL и заглавие страницы
+  var body = "save=" + tab.url + "&savetitle=" + tab.title;
+
+  // При нажатии кнопки отправить запрос:
   document.getElementById('saveLink').onclick = function() {
   // Используя CitrusZen API
   xhr.open("GET", "http://citrus.ru.com/api.php?" +body , true);
