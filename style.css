@@ -8,39 +8,58 @@
 }
 body {
   font-family: 'Alegreya Sans SC', sans-serif;
-  color: white;
+  color: #e74c3c;
   font-weight: 300;
-  background: #50a3a2;
-  background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
-  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+  background:#ecf0f1;
   overflow: hidden;
 }
 body ::-webkit-input-placeholder {
   /* WebKit browsers */
   font-family: 'Alegreya Sans SC', sans-serif;
-  color: white;
+  color: #53e3a6;
   font-weight: 300;
 }
 body :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   font-family: 'Alegreya Sans SC', sans-serif;
-  color: white;
+  color: #53e3a6;
   opacity: 1;
   font-weight: 300;
 }
 body ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   font-family: 'Alegreya Sans SC', sans-serif;
-  color: white;
+  color: #53e3a6;
   opacity: 1;
   font-weight: 300;
 }
 body :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   font-family: 'Alegreya Sans SC', sans-serif;
-  color: white;
+  color: #53e3a6;
   font-weight: 300;
 }
+.buttonSave {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #27ae60;
+  border-radius: 3px;
+  width: 250px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+.buttonSave:hover {
+  background-color: #f5f7f9;
+}
+
 button {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -49,7 +68,7 @@ button {
   background-color: white;
   border: 0;
   padding: 10px 15px;
-  color: #53e3a6;
+  color: #8e44ad;
   border-radius: 3px;
   width: 250px;
   border-radius: 25px;
